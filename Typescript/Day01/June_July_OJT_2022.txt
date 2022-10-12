@@ -1,0 +1,100 @@
+			Welcome To Angular Module 12
+				  Sumit Raokhande
+
+- B.E.Electronics, KBP satara
+- M.Tech Electronics, Walchand College Sangli
+- C-Dac Wimc , Sunbeam pune
+- worked as Mobile Application developer at tivre business solution
+- worked on J2ME,Symbian,Windows Mobile,Reaserach Motion
+- Worked as Android developer at veetron 
+- Live android application prasieo,autohub,garage
+- Worked as JDE Developer of Oracle Product
+- Worked as OpenSDK developer
+- work as angular developer
+- work on google cloud & docker 
+- Also Association with kiran sir as a corporate trainer
+
+June & july OJT Batch
+	- time 1.15hr avg 1.30
+	- mon - frid 11am
+	- sat doubt solving 11am 
+	- u will get all recording but it is not downladable
+	- u will get all code As well as any soft copy that show in our session except images
+	- duration 50hr to 55hr working days 
+	- angular project 
+	- project required 10-15 days 
+	- industry coding 
+	- all standard we have to follow 
+	- pre-requiest 
+		- oops concept
+		- Basic of html & css 
+	- session sharp 11am connect on time 
+	- don't miss any session 
+	- angular topic is dependant each other
+	- don't join late 
+	- all interview Questions provide 
+	
+	
+	First u have to create Restful API 
+	
+	Employee & country
+	Emoloyee => entity class
+	id => integer => id should autoincremnet
+	name 
+	status=> active,inactive,suspend
+	email id
+	phone no
+	created by => 'sumit'
+	created date 
+	updated by 
+	updated date;
+	department=> hr,it,admin,marketing
+	country => object one to one mapping
+	
+	Country => entity class
+	cid => id should autoincremnet
+	cname
+	
+	10 api 
+	1 add country
+	2 update country
+	3 get all country
+	4 delete country
+	5 get particular country by id 
+	6 getallemp
+	7 addemp
+	8 update emp
+	9 deleteemp
+	10 get particular emp by id 
+	11 get particular emp by status 
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
