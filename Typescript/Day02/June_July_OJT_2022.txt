@@ -1,0 +1,31 @@
+Last Lecture
+1 Introduction
+2 Environmental Setup
+
+Today's Lecture
+1 Diff between Angular js & angular 2+
+2 What is angular?
+3 Why we use angular?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
