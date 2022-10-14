@@ -1,0 +1,33 @@
+Last Lecture
+1 Diff between angular js Vs angular 2+
+	- object based / oops based
+	- it written in js / it is written in typescript
+	- mvc pattern / mvw pattern 
+	- it is not memory efficient / it is memory efficient
+	- speed & perfomance is less as compared to angular 2+ /speed & perfomance is more as compared to angular js
+	
+2 what is angular?
+	- front end technology 
+	- it is freamwork 
+	- Angular ,react js ,vue js,embber js ,jsp 
+3 why angular? /feature/advantage
+	- it provides template declaration,module,end to end tooling 
+	- it is universal freamwork
+	- one freamwork to all 
+	- it provide code splitting 
+	- speed & performance 
+	- Angular cli 
+
+
+Today Lecture
+1 What is typescript
+2 vscode overview
+3 simple pgm
+4 variable
+
+
+
+
+
+
+
