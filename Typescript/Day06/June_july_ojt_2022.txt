@@ -1,0 +1,78 @@
+Last Lecture
+1 functions
+	1 functions without paramter & without return type
+		function add1(){
+		....
+		}
+		add1();
+	2 functions with paramter & without return type
+		function add2(a:number,b:number){
+		..
+		}
+		
+		add2(2,3)
+	3 functions without paramter & with return type
+			function add3():number{
+				return (5+5);
+			}
+			let res=add3();
+	4 functions with paramter & with return type
+		function add4(a:number,b:number):number{
+			return (a+b);
+		}
+		let res=add4(2,3)
+2 anonymous functions
+		let temp1=function (a:number,b:number):number{
+		return (a+b);
+		}
+		
+		let res=temp1(2,3);
+3 fat arrow functions
+	let temp2=(a:number,b:number):number=>{
+		return (a+b)
+	}
+	let res=temp2(2,3);
+4 optional paramter functions
+		function add1(a?:number,b?:number){
+			.....
+		}
+		add1(2,4)
+5 default paramter functions
+	function add2(a:number=4,b?:number){
+	
+	}	
+	add2(3,7);
+	
+Today Lecture
+1 Array 
+2 Array Method
+3 foreach loop
+4 spread operator
+5 rest paramter functions
+6 push & pop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
