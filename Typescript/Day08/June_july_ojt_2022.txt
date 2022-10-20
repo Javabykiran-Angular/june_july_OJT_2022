@@ -1,0 +1,65 @@
+Last Lecture
+1 Array 
+	- dynamically growable & shrinkable
+	let a:number[];
+	let a:number[]=[];
+	let a=[2,3,4];
+	let a=[2,3.5,'sumit']
+	
+	console.log(a);
+	console.log(a.join("#"))
+	
+	
+2 Array Method
+3 foreach loop
+	a.foreach((myvalue,i)=>{
+		.....
+	})
+	
+4 spread operator
+	
+5 rest paramter functions
+	function display(str:string,...item:number[]){
+		......
+	}	
+	display('sumit',2,34,5,7)
+	
+6 push & pop
+	- LIFO
+	a.push(3)
+	a.push(4,5,6)
+	let res=a.pop();
+	
+
+Today Lecture
+1 Splice method
+2 slice
+3 map
+4 dereference of array
+5 shallow copy & deep copy (js interview question)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
