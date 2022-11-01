@@ -1,0 +1,49 @@
+Last Lecture
+1 class,object,property
+	export class Myclass{
+		private id:number;
+		protected fname:string;
+		
+		constructor(id:number,fname:string){
+		....
+		}
+		
+		display(){
+			console.log(`
+				id :: ${this.id}
+				....
+			`)
+		}
+	}
+	
+	export const pi=3.14;
+	
+	let obj =new Myclass(9,'sumit');
+	obj.display();
+	
+	demo2.ts
+	import {Myclass,pi} from './demo1';
+	
+	let obj =new Myclass(9,'sumit');
+	obj.display();
+	
+	myfoler
+	demo3.ts
+	import {Myclass} from '../day09/demo1';
+	
+	let obj =new Myclass(9,'sumit');
+	obj.display();
+	
+	
+2 method
+3 constructor
+4 Access specifier
+5 Access in same package
+6 Access in different package
+
+
+Today Lecture
+1 Inheritance	
+2 Method override
+3 Interface	
+4 Association/contentment/composition/Aggregation => has a relationship
