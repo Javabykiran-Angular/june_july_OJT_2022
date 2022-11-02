@@ -1,0 +1,99 @@
+Last Lecture
+1 Inheritance	
+	single,multilevel,hireachical
+	
+	export class Shape{
+		Myarea(){
+		.....
+		}
+	}
+	export class Circle extends Shape{
+			radius,area
+			
+			constructor(...){
+				super();
+				...
+			}
+			
+		override Myarea(){
+			....
+		}
+		
+		display(){
+		
+		}
+		
+		
+		
+	}
+	
+	export class Rectangle extends Shape{
+	
+	constructor(...){
+				super();
+				...
+			}
+			
+		override Myarea(){
+			....
+		}
+		
+		display(){
+		
+		}
+		
+	}
+	
+	inheritancemain.ts
+	
+	let obj=new Circle(2);
+	obj.Myarea();
+	obj.display();
+	
+	
+	
+	
+2 Method override
+	same signature
+	inheritance
+3 Interface	
+	export interface Employee{
+		...
+		...
+		fullaname?:string;
+		
+		display();
+		
+	}
+	
+	
+	export class EmployeeDetails implements Employee{
+			....
+			dept:Department;
+			
+			constructor(...,role:string){
+				
+			  this.dept=new Department(role)
+			}
+			
+			display(){
+			...
+				this.dept.getRole();
+			}
+	
+	}
+	
+	export class Department{
+	
+		private role:string;
+		
+		//getter & setter
+		
+		
+	}
+	
+	
+4 Association/contentment/composition/Aggregation => has a relationship
+
+Today Lecture
+1 Environmental Setup of Angular
