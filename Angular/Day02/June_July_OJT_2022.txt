@@ -1,0 +1,55 @@
+Last Lecture
+1 Environmental Setup of Angular
+
+Today Lecture
+1 overview of arch.
+	- Angular is component Orientated arch.
+	- Component
+		1 View file => .html
+		2 Stylesheet => .css
+		3 Component file => .ts
+		4 testing => .specs.ts
+		- every component has only 1 view file & only 1 ts file
+		- but stylesheet file one or more is available 
+		- metadata
+			- it gives extra information about component
+			@Component({
+				....
+			})
+	- Data binding
+		- data flow from component file to view file 
+		1 String Interpolation
+		2 Property binding
+		3 Style binding
+		4 Class binding
+	- Event Binding
+		- data/request flow from view to component
+		- click,change,keyboard,mouse event,custom event 
+	- directive
+		- It change or update or manipulate the behaviour of view file 
+		- attribute,component,structral,event directive
+	- App Module
+		- module=> It is collection of classes,interface,variable,method,enum,component,service...
+		- every angular application has 1 root module
+		- u can create one or more module in application
+			1 declaration
+				- to register ur component
+			2 import
+				- to register a module 				
+			3 service
+				- It is simple classes
+				- we can write only Buisness logic
+				- It is code resualbility
+				- it is code maintanbility
+				- It is provide isolation
+				- It is used to connect frond end to back end server
+				- to implement services use DI 
+				
+			4 routing
+				- navigation from one component to another component
+	- Injector
+		- it is used for 3rd party services 
+		- inbuild module we can inject 
+2 create component manually
+3 create component through cli
+
