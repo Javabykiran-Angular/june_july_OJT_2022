@@ -1,0 +1,14 @@
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+#myname{
+    color: red;
+}
+
+.myclass{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+}
