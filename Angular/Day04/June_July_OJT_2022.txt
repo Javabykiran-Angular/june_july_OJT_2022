@@ -1,0 +1,53 @@
+Last Lecture
+1 Data Binding
+	- data flow from component to ur view file 
+2 String interpolation
+	- to render data dynamically 
+	<h2> {{name}}</h2>
+	<h2> {{'welcome '+name}}</h2>
+	<h2> {{num1+num1}}</h2>
+	<img src=" {{imgUrl}} ">
+	.ts file
+	name:string='sumit';
+	num1:number=2;
+	imgUrl:string='../../assets/bg.jpg';
+3 Property Binding
+	<input [value]="name">
+	<img [src]="imgUrl">
+	
+	<table>
+		<tr>
+			<td [attr.colsspan]="mynumber" >one </td>
+		</tr>
+		<tr>
+			<td>Two </td>
+			<td>two</td>
+			</tr>
+			
+	<table>
+	
+	.ts file
+	name:string='sumit';
+	....
+	mynumber:number=2;
+	
+4 difference between string interpolation & property binding
+	
+		div hidden=" {{isHidden}} ">
+		.....
+		</div>
+		
+		div [hidden]="isHidden">
+		.....
+		</div>
+		
+		.ts file
+		isHidden:boolean=false;
+
+Today Lecture
+1 Style Binding
+2 Class Binding
+3 Event Binding
+	- data/request flow from view to component file
+4 click event
+
