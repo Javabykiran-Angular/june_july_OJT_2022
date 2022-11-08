@@ -1,0 +1,56 @@
+Last Lecture
+1 Style Binding
+	<h2 [style.color]="mycolor">....
+	
+	<h2 [style.color]="rating<4?'red':'green'">
+	
+	div [ngStyle]="jsonobj">...
+	
+	.ts file
+	mycolor:string='red';
+	rating:number=2;
+	
+	jsonobj={
+		color:'red',
+		fontFamily:'...',
+		'font-size':'...'
+	}
+	
+	
+	
+2 Class Binding
+	<h2 [class]="myclass">...
+	
+	<h2 [class.danger]="rating<4"
+		[class.warning]="rating>4">
+		
+	<div [ngClass]="jsonobj">,,,,
+	
+	.ts file
+	myclass:string='success';
+	rating:number=2;
+	isError:boolean=true;
+	
+	jsonobj={
+		'success':!this.isError,
+		'danger':this.isError,
+		'special':this.isSpecial
+	}
+	
+3 Event Binding
+	- data/request flow from view to component file
+4 click event
+	<button (click)="onClick()">
+	
+	.ts file
+	onClick(){
+	
+		console.log("click event occur")
+	}
+
+Today Lecture
+1 $event 
+2 Template ref variable
+3 Real time example
+
+
