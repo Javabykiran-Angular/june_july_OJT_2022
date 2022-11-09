@@ -1,0 +1,40 @@
+<p>eventbinding3 works!</p>
+
+<!-- change-->
+
+<!-- <input #inputname (change)="onChange(inputname)" type="text" placeholder="Enter the name "> -->
+
+<!-- Key Board Event -->
+
+<!-- <input (keyup)="onKeyUp()" type="text" placeholder="key up event"> <br><br>
+
+<input (keydown)="onKeyDown()" type="text" placeholder="key down event"> <br><br>
+
+<input type="text" (keyup.enter)="onKeyFiltering()" placeholder="Key Filtering"> <br><br>
+
+<input type="text" (keydown.enter)="onKeyFiltering1()" placeholder="Key Filtering"> -->
+
+
+
+<!-- event Binding without event handler -->
+
+<!-- <button (click)="result=8+8" >Addition</button>
+<h2> {{result}} </h2> -->
+
+
+<!-- Two way Binding
+    ngModel =>
+        - It is used for two way binding
+        - it is attribute directive
+        - if i want use this directive then u hv import one modeule whose name is FormsModule in app.module.ts file
+        - [()] => banana in the box
+        - [(ngModel)]="PropertyName"
+        - u can apply any html tag
+-->
+
+<input  [(ngModel)]="name" type="text" placeholder="Enter the name"> {{name}}
+
+
+
+
+

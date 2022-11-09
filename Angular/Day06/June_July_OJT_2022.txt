@@ -1,0 +1,59 @@
+Last Lecture
+1 $event 
+	- special variable
+	- it holds current dom element information
+	- u can only access a data, but u can't chanage that data or can't change the behaviour of that element
+	
+	<button value="doller event!!!!" (click)="onClick($event)">Doller event
+	
+	.ts file
+	onClick(myevent:any){
+	console.log(myevent)
+	console.log(myevent.target.value)
+	}
+	
+2 Template ref variable
+	<input #inputname>
+		<button (click)="onClick(inputname)">
+		
+		<input #inputname1>
+		<button (click)="onClick1(inputname1.value)">
+		
+		.ts file
+		onClick(myref:any){
+			console.log(myref);
+			myref.style.background='green';
+			myref.style.color='white';
+		}
+		
+		onClick1(myvalue:any){
+			console.log(myvalue)
+		}
+		
+		
+		
+		
+3 Real time example
+	<input #inputnum1 > &nbsp;
+	<input #inputnum2 > 
+	<button (click)="onAddition(inputnum1.value,inputnum2.value)"
+	<input [value]="result" > 
+	
+	.ts file
+	onAddition(num1:any,num2:any){
+		let n1=+num1;
+		let n2=+num;
+		this.result=n1+n2;
+	}
+
+
+Today Lecture
+1 Change event
+2 Key Board Event
+	1 keyup
+	2 keydown
+		- Event filtering => enter
+3 event Binding without event handler
+4 Two way Binding
+
+
