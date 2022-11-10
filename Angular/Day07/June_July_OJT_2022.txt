@@ -1,0 +1,37 @@
+Last Lecture
+1 Change event
+	<input (change)="onChange()">
+	
+	.tsf file
+	onChange(){
+	.....
+	}
+2 Key Board Event
+	1 keyup
+		<input (keyup)="...">
+	2 keydown
+		keydown
+		- Event filtering => enter
+		keyup.enter
+3 event Binding without event handler
+	<button (click)="result=8+8">
+	{{result}}
+4 Two way Binding
+	- ngModel - > attribute directive
+	- FormsModule => app.module.ts 
+	- [(ngModel)]="name"
+	{{name}}
+
+Today Lecture
+1 Structural Directive
+	- it used to update/hide/manipulate dynamically ur dom structure
+	1 if directive => *ngIf
+	2 for directive => *ngFor
+	3 switch directive => *ngSwitch
+2 if directive
+3 ng-template
+	- component directive
+	
+4 for directive
+
+
