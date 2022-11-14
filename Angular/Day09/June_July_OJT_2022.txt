@@ -1,0 +1,52 @@
+Last Lecture
+1 for directive continue
+	<table >
+		<thead>
+			<th>...
+		<thead>
+		<tbody>
+			<tr *ngFor="let item of arrTeam;index as i;trackBy:kuchbhi"
+				(mouseover)="onMouseOver(item)"
+				[ngClass]=" {
+					'highlight':selected===item.name
+				} "
+				(mouseout)="onMouseout()"
+			>
+				<td>{{i+1}}</td>
+				<td> {{item.name}}
+				..
+			</tr>
+		</tbody>
+		</table>
+		.ts file
+		
+		onMouseOver(item:any){
+			this.selected=item.name;
+		}
+		
+		onMouseout(){
+			this.selected='';
+		}
+		
+		
+		kuchbhi(index:any,item:any){
+			return index;
+		}
+		
+2 Mouse event 
+	1 mouseover
+	2 mouseout
+3 Optimise the for loop
+	
+
+Today Lecture
+1 Switch Directive
+2 Component Interaction
+	- u can send data(string,boolean,number,json,array,array of object,custom class object) from one comopoent to another comopoent
+	- parent-child relationship 
+3 @Input() 
+	- Parent compo to child comp.
+	
+
+
+

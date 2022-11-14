@@ -1,0 +1,11 @@
+<p>parent works!</p>
+<input #inputname type="text" placeholder="Enter the name">
+<button (click)="onSend(inputname.value)" >Send</button>
+
+<hr>
+<app-child1 
+        [ParentStrData]="strdata" 
+        [ParentJsonObj]="jsonObj"
+        [ParentInptData]="name"
+        [ParentDateData]="AppDateData"
+></app-child1>
