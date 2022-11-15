@@ -1,0 +1,22 @@
+
+.mydiv{
+    background-color: blue;
+    color: white;
+    width: 450px;
+    height: 250px;
+    border: 3px solid lightcoral;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+button{
+    margin-left: 10px;
+    
+}
+.maindiv{
+    display: flex;
+}
+
+.maindiv .compDiv{
+    margin: 20px;
+}

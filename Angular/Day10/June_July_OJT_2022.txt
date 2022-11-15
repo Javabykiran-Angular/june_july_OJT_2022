@@ -1,0 +1,65 @@
+Last Lecture
+1 Switch Directive
+	
+	<input #inputcolor> <button (click)="onclick(inputcolor.value)">
+	
+	<div [ngSwitch]="choice">
+		<div *ngSwitchCase="'red'" 
+			[style.background]="choice"
+		> Your color is {{choice}}
+		...
+		
+		<div *ngSwitchDefault
+			[style.background]="choice==''?'black':'orange'"
+		>Your color name is wrong {{choice}}
+	
+	
+	.ts file
+	
+	onclick(colorname:string){
+		this.choiuce=colorname;
+	}
+	
+	
+	
+2 Component Interaction
+	- u can send data(string,boolean,number,json,array,array of object,custom class object) from one comopoent to another comopoent
+	- parent-child relationship 
+3 @Input() 
+	- Parent compo to child comp.
+	
+	app.comopoent.html
+	<app-parent>
+	
+	parent.comopoent.html
+	<app-child1 [ParentStrdata]="strdata"
+				[ParentJsonData]="jsonobj"
+	>
+	
+	parent.ts
+	strdata:string='...'
+	jsonobj={
+	....
+	}
+	
+	child .ts
+	@Input() ParentStrdata:string='';
+	
+	@Input() ParentJsonData:any={};
+	
+	child.html
+	
+	{{ParentStrdata}}
+	
+	{{ParentJsonData.name}}
+
+Today Lecture
+1 @Output()
+2 ViewChild
+	1 u can access parent view file html element in parent ts file 
+	2 u can access child property as well as method  using view child 
+
+	
+
+
+

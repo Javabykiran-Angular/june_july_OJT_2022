@@ -1,0 +1,16 @@
+<p>parent2 works!</p>
+
+<div #mydiv>
+    <p>Access html element using View child</p>
+</div>
+<br>
+<hr>
+<div class="maindiv">
+    <div >
+        <button (click)="onProperty()">Access Property</button>
+        <button (click)="onMethod()">Access Method</button>
+    </div>
+    <div class="compDiv">
+        <app-child3></app-child3>
+    </div>
+</div>
