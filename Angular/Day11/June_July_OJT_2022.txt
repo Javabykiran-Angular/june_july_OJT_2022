@@ -1,0 +1,68 @@
+Last Lecture
+1  @Output()
+	child3.html
+	<button (click)="onClick()">
+	
+	child.ts
+		@Output() strevent=new EventEmitter();
+		strdata:string='...'
+		arrobj=[{}]
+		
+		@Output() ArrObjEvent=new EventEmitter()
+		
+	
+	onClick(){
+		this.strevent.emit(this.strdata);
+		this.ArrObjEvent.emit(this.arrobj)
+	}
+	
+	parent.html
+	{{strrecived}}
+	{{arrobj.name}}
+	
+	<app-child3 (strevent)="strrecived=$event"
+			(ArrObjEvent)="arrobj=$event"
+		
+2 ViewChild
+	1 u can access parent view file html element in parent ts file 
+	@ViewChild('mydiv') divAccess!:ElementRef;
+	2 u can access child property as well as method  using view child 
+	
+	AfterViewInit
+	ngAfterViewInit(){
+		this.divAccess.nativeelement.clasName='mydiv'
+	}
+	
+	child.ts
+	username:string='Default name'
+	
+	onClick(){
+		alert("User name is "+this.username)
+	}
+	
+	child.html
+	{{username}}
+	<button (click)="onClick()">
+	
+	parent.ts
+	
+	@ViewChild(childComponent) childAccess!:childComponent;
+	
+	onProperty(){
+		this.childAccess.username='Sumit';
+	}
+	
+	onMethod(){
+		this.childAccess.onClick();
+	}
+
+Today Lecture
+1 Pipe
+	- if u want transform a data to end user 
+	- it does not change its original value/state 
+2 Inbuild Pipe
+	
+	
+
+
+
