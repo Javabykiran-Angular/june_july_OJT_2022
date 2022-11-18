@@ -1,0 +1,34 @@
+Last Lecture
+1  Pipe
+	- if u want transform a data to end user 
+	- it does not change its original value/state 
+2 Inbuild Pipe
+	<h2>  {{strdata|lowercase}}</h2>
+	<h2>  {{strdata|uppercase}}</h2>
+	<h2>  {{strdata|titlecase}}</h2>
+	<h2>  {{strdata|slic:1:9}}</h2>
+	
+	<h2>  {{0.025|percent:'1.1'}}</h2>
+	<h2>  {{0.025|percent:'2.2'}}</h2>
+	
+	<h2>  {{0.025|curreny:'INR':'code'}}</h2>
+	
+	<h2>  {{5.76845693|number:'1.2-3'}}</h2>
+	<h2>  {{mydate|date:'mediumDate'}}</h2>
+	<h2>  {{mydate|date:'dd-MM-yyyy'}}</h2>
+	<h2>  {{mydate|date:'longDate'|uppercase}}</h2>
+	<h2>  {{mydate|date:'hh:mm:ss a'}}</h2>
+	
+
+Today Lecture
+1 Custom Pipe
+2 Pure pipe 
+3 impure pipe
+4 PieTransform
+5 transform()
+
+	
+	
+
+
+
