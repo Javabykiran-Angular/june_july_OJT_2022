@@ -1,0 +1,33 @@
+Last Lecture
+1 Custom Pipe
+	@Pipe({
+		name:'summary',
+		pure:false
+	})
+	export class SummayPipe implements PipeTransform{
+		transform(value:any,start:number=0,end:number=20){
+			let temp=(<string>value)
+			
+			return (temp.substring(0,15));
+		
+		}
+		
+	}
+	
+	custom-pipe.html
+	<h2> {{strdetails | summary:0:50}}
+	
+2 Pure pipe 
+3 impure pipe
+4 PieTransform
+5 transform()
+
+Today Lecture
+1 Service
+2 Dependancy Injection
+
+	
+	
+
+
+
