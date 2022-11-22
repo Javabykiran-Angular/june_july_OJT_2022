@@ -1,0 +1,102 @@
+Last Lecture
+1  Service
+	- It is simple class 
+	- we can write our business logic
+	- it is used for code reuseability
+	- it is used for maintanability
+	- it is used to isolate ur component
+	- it is used to connect ur backend server to ur front end server
+2 Dependancy Injection
+	export class Course{
+		private course:string[]=[...];
+		
+		getCourse(){
+			return (this.course);
+		}
+	}
+	
+	course.ts
+	
+	constructor(private service :Course){
+		//let service=new Course();
+		
+	}
+	ngOnInit(){
+		this.mycourse=this.service.getCourse();
+	}
+	
+	app.module.ts
+		provider:[Course]
+
+Today Lecture
+1 Http Protocol
+	- it is set of rule 
+	- stateless protocol 
+2 Http Methods
+	1 get  => to fetch a data from ur back end server 
+	2 post => to send a data from frontend to backend server 
+	3 put =>  to upadte a data 
+	4 delete => to delete a particular record
+	
+3 Http Request/Response
+	http request=>
+		1 http header
+			- url 
+			- http method
+			- ip address
+			- date
+			- auth
+			- application content 
+				- image
+				- audio file
+				- pdf
+				- excel
+				- text/html
+				....
+		2 http body
+			- data 
+				- json
+				- xml
+				- html code/text 
+	Http Response => 
+		1 http header
+			- url 
+			- http method
+			- ip address
+			- date
+			- auth
+			- application content 
+				- image
+				- audio file
+				- pdf
+				- excel
+				- text/html
+				....
+			- http status
+				1 2xx  => success,ok 
+				2 3xx  => redirection 
+				3 4xx  => client side 
+				4 5xx  => server side 
+		2 http body
+			- data 
+				- json
+				- xml
+				- html code/text 
+4 backend url https://jsonplaceholder.typicode.com/posts
+	- it is called a fake service 
+	- it can not store or upadate or delete ur record in db,it can not reflect change of data in database, but it gives a proper response of ur request
+
+	
+5 @Intectable
+6 Observable
+7 get method
+8 ng g s servicename
+9 HttpClientModule
+10 post method
+	
+
+	
+	
+
+
+
