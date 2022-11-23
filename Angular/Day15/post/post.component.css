@@ -1,0 +1,9 @@
+table,th,td,tr{
+    border: 1px solid;
+}
+
+button{
+    margin: 8px;
+    padding: 5px;
+    border-radius: 5px;
+}

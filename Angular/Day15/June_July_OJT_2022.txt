@@ -1,0 +1,77 @@
+Last Lecture
+1 Http Protocol
+	- it is set of rule 
+	- stateless protocol 
+2 Http Methods
+	1 get  => to fetch a data from ur back end server 
+	2 post => to send a data from frontend to backend server 
+	3 put =>  to upadte a data 
+	4 delete => to delete a particular record
+	
+3 Http Request/Response
+	http request=>
+		1 http header
+			- url 
+			- http method
+			- ip address
+			- date
+			- auth
+			- application content 
+				- image
+				- audio file
+				- pdf
+				- excel
+				- text/html
+				....
+		2 http body
+			- data 
+				- json
+				- xml
+				- html code/text 
+	Http Response => 
+		1 http header
+			- url 
+			- http method
+			- ip address
+			- date
+			- auth
+			- application content 
+				- image
+				- audio file
+				- pdf
+				- excel
+				- text/html
+				....
+			- http status
+				1 2xx  => success,ok 
+				2 3xx  => redirection 
+				3 4xx  => client side 
+				4 5xx  => server side 
+		2 http body
+			- data 
+				- json
+				- xml
+				- html code/text 
+4 backend url https://jsonplaceholder.typicode.com/posts
+	- it is called a fake service 
+	- it can not store or upadate or delete ur record in db,it can not reflect change of data in database, but it gives a proper response of ur request
+
+	
+5 @Intectable
+6 Observable
+7 get method
+8 ng g s servicename
+9 HttpClientModule
+10 post method
+
+Today Lecture
+1 Put Method 
+2 Delete method
+3 Error Handling
+	
+
+	
+	
+
+
+
