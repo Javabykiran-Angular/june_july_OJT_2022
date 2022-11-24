@@ -1,0 +1,28 @@
+Last Lecture
+1 Put Method 	
+2 Delete method
+3 Error Handling
+
+Today Lecture
+1 Routing
+ - navigation from one component to another component
+ - u can send a data from routing
+ 
+2 Routing Steps
+	1 configure route
+	2 <router-outlet>
+	3 establish link/navigate between component
+3 Empty Path
+	- it means which default component u hv to render 
+4 wild cart operator=> **
+	- to display not found component
+5 Static routing/routerLink
+6 send parameter through routing
+7 send query parameter
+	
+
+	
+	
+
+
+
