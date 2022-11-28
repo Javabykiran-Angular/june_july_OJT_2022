@@ -1,0 +1,71 @@
+Last Lecture
+1 Dynamic routing/using navigate method
+		
+		constructor(private router:Router){}
+		
+		this.router.navigate(['/Page2',this.myid])
+			
+		this.router.navigate(['/queryparam'],{
+			queryparams:this.json
+		})
+		
+2 child routes
+	[
+	{
+		path:'products',children:[
+			{
+				path:"",component:ProductComponent
+			},
+			{
+				path:'mobile',component:MobileComponent
+			}
+			....
+		]
+	}
+	]
+	
+	home.html
+	<a routerLink='/products'>
+	
+	product.html
+	<a routerLink='mobile'>
+	
+3 feature module/custom module
+	ng g m user --routing
+		[
+			{
+				path:"",listuser
+			},
+			{
+				path:"updateuser"
+			}
+		]
+		
+	app-routing.ts
+	[
+		{
+			path:"user",laodchildern:()=>import('./use/userModule'}.then((m=>m.userModule))
+		}
+	]
+4 Lazy Loading
+	
+5 Modifide the <router-outlet>
+	<app-home>
+	
+	home.html
+		....
+		
+		<router-outlet>
+
+Today Lecture
+1 Send data through Service
+3 Rjx lib
+4 Subject
+5 BehaviorSubject	
+	
+
+	
+	
+
+
+
