@@ -1,0 +1,63 @@
+Last Lecture
+1 Send data through Service
+	
+	notification.ts
+	
+	//notification = new Subject<string>();
+	
+	notification = new BehaviorSubject<string>('');
+	SendMessage(msg:string){
+		this.notification.next(msg);
+	}
+	
+	query.ts
+	construtor(private notify:notification)
+	
+	ngOnInit(){
+		this.notification.notification
+		.subscribe((data)=>{
+			this.datarecived=data;
+		})
+	}
+	
+	onSend(msg:string){
+		this.notification.SendMessage(msg)
+	}
+	
+	
+	notification.ts
+	datarecived:string='';
+	construtor(private notify:notification)
+	
+	ngOnInit(){
+		this.notification.notification
+		.subscribe((data)=>{
+			this.datarecived=data;
+		})
+	}
+	
+3 Rjx lib
+4 Subject
+5 BehaviorSubject
+
+Today Lecture
+1 Bootstrap Overview
+	- It is used for css freamwork
+	- It gives template css 
+	- It makes application Attractive
+	- It makes ur application responsive
+	
+2 Integration of Bootstrap
+	1 online
+		Use CDN Link
+	2 offline
+		install the boostrap pkg
+		npm install bootstrap@4.6 --save
+3 Basic grid system of Bootstrap	
+	
+
+	
+	
+
+
+
